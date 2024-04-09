@@ -19,3 +19,7 @@ git config --global -l　#実行結果を確認する
 #補足　全てのファイルで設定を適応する方法
 git config --global http.proxy http://[proxy]:[port]
 ```
+```
+#補足2 プロキシ無効化
+git config --global http.<url>.proxy ""
+```
